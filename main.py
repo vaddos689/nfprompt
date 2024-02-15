@@ -26,7 +26,6 @@ def get_module():
         "Select a method to get started",
         choices=[
             Choice("1) Daily HIT", daily_hit),
-            Choice("2) Check transaction count", "tx_checker"),
             Choice("3) Exit", "exit"),
         ],
         qmark="⚙️ ",
