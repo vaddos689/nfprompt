@@ -25,7 +25,7 @@ def get_module():
     result = questionary.select(
         "Select a method to get started",
         choices=[
-            Choice("1) Deposit to Scroll", daily_hit),
+            Choice("1) Daily HIT", daily_hit),
             Choice("2) Check transaction count", "tx_checker"),
             Choice("3) Exit", "exit"),
         ],
